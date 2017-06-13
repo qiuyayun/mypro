@@ -1,0 +1,168 @@
+@charset "utf-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,
+form,fieldset,legend,input,textarea,p,blockquote,th,td {margin:0;padding:0}
+*{
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+body{
+    min-width: 960px;
+    background-color: #e7e7e7;
+}
+/*头部*/
+.bh{
+    height: 64px;
+  /*  overflow: hidden;*/
+}
+.bh .bh-wrap{
+    position: relative;
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+}
+.bh .bh-wrapLeft{
+    position: absolute;
+    top: 12px;
+    left:50px;
+    font-size: 28px;
+}
+.bh .bh-wrapLeft a{
+    text-decoration: none;
+    color:#5e5e5e;
+}
+.bh .bh-wrapRight{
+    position: absolute;
+    top: 24px;
+    right: 30px;
+    color: #959595;
+ }
+.bh .bh-wrapRight a{
+      margin: 0 15px;
+      text-decoration: none;
+      color: #959595;
+  }
+/*中间*/
+.bs{
+    height: 550px;
+}
+.bs .bs-img{
+    background-image: url("../images/background.jpg");
+    height: 100%;
+}
+.bs .bs-wrap{
+    position: relative;
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+}
+.bs .bs-wrap .bs-login{
+    position: absolute;
+    right: 66px;
+    top: 75px;
+    width: 275px;
+    height: 382px;
+    background-color: rgba(245,245,245,0.9);
+}
+.bs .bs-wrap .bs-login .login-hd{
+     height: 52px;
+}
+.bs .bs-wrap .bs-login .login-hd .item{
+    display: inline;
+    width: 137px;
+    line-height: 52px;
+    text-align: center;
+    color: #626262;
+    cursor: pointer;
+    font-size: 18px;
+    float: left;
+}
+.bs .bs-wrap .bs-login .login-hd .item:nth-of-type(1){
+    background-color: rgba(176,196,222,0.5);
+}
+.bs .bs-wrap .bs-login .login-bd{
+    height: 320px;
+}
+.bs .bs-wrap .bs-login .login-bd .login-form{
+    padding: 28px 20px;
+    display: none;
+}
+.bs .bs-wrap .bs-login .login-bd .action{
+    display: block;
+}
+.bs .bs-wrap .bs-login .login-bd .login-form .form-item{
+    height: 40px;
+    margin-bottom:28px;
+    background-color: #fff;
+}
+.bs .bs-wrap .bs-login .login-bd .login-form .form-btn{
+    margin-top: 35px;
+}
+.bs .bs-wrap .bs-login .login-bd .login-form .form-btn button{
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+    background-color: rgb(100,149,237);
+    border: 0;
+    color: #fff;
+}
+/*底部*/
+.bt{
+    height: 45px;
+}
+.bt .bt-wrap{
+    position: relative;
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+}
+.bt .bt-wrap nav{
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    line-height: 50px;
+}
+.bt .bt-wrap nav a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: #959595;
+}
+
+/*注册界面*/
+.bs .bs-wrap .bs-register{
+    position: absolute;
+    right: 66px;
+    top: 30px;
+    width: 360px;
+    height: 490px;
+    background-color: rgba(245,245,245,0.9);
+}
+.bs .bs-wrap .bs-register .register-bd .register-form{
+    padding: 22px 20px;
+}
+.bs .bs-wrap .bs-register .register-bd .register-form .form-item{
+    height: 38px;
+    margin-bottom:22px;
+    background-color: #fff;
+}
+.bs .bs-wrap .bs-register .register-bd .register-form .form-btn{
+    /*margin-top: 35px;*/
+}
+.bs .bs-wrap .bs-register .register-bd .register-form .form-btn button{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    background-color: rgb(100,149,237);
+    border: 0;
+    color: #fff;
+}
+
+i{
+    padding: 12px;
+}
+input{
+    border: 0;
+    outline: none;
+}

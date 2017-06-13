@@ -1,0 +1,149 @@
+@charset "utf-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,
+form,fieldset,legend,input,textarea,p,blockquote,th,td {margin:0;padding:0}
+*{
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+body{
+    min-width: 960px;
+    background-color:#e8e8e8 ;
+}
+html,body,.mainBox{
+    position:relative;
+    width: 100%;
+    height: 100%;
+}
+/*头部*/
+.mainBox header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    z-index: 2;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    background-color: #f5f5f5;
+}
+header i{
+    padding-right: 10px;
+}
+header .hd-wrap{
+    position: relative;
+    height: 100%;
+}
+header .hd-wrap .headLeft{
+     position: absolute;
+     top: 20px;
+     left: 80px;
+     font-size: 28px;
+}
+header .hd-wrap .headLeft a{
+    color:#5e5e5e;
+    text-decoration: none;
+}
+header .hd-wrap .headRight{
+    position: absolute;
+    top: 40px;
+    right: 50px;
+}
+header .headRight .user{
+    float: left;
+}
+header .hd-wrap .headRight .single{
+    float: left;
+    padding-left: 10px;
+}
+
+/*左边*/
+.mainBox .left{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 80px;
+    width: 240px;
+    z-index: 1;
+}
+.panel-group{
+    margin-bottom: 0;
+}
+.panel-group .panel+.panel{
+    margin-top: 0;
+}
+.panel-default>.panel-heading{
+    background-color:#e8e8e8 ;
+}
+.panel-default{
+    border: none;
+    border-bottom:1px solid #ccc;
+}
+.panel-title{
+    padding-left: 20px;
+
+}
+.panel-title a{
+    text-decoration: none;
+}
+.panel-title i{
+    padding-right: 15px;
+}
+.panel-default>.panel-heading+.panel-collapse>.panel-body{
+    border: none;
+}
+.panel-body{
+    padding: 0;
+    line-height: 2.5em;
+}
+.panel-body ul{
+    list-style: none;
+    background-color:#f5f5f5;
+}
+.panel-body ul li a{
+    text-decoration: none;
+    color: #5e5e5e;
+}
+.panel-body ul li:hover{
+    background-color:#fff;
+}
+.panel-body ul li:hover a{
+    color: #e47911;
+}
+.panel-body ul li i{
+    padding-left: 50px;
+    padding-right: 15px;
+}
+/*右边*/
+.mainBox .right{
+    position: absolute;
+    top: 80px;
+    padding-left: 240px;
+    width: 100%;
+    border-left: 1px solid black;
+    box-sizing:border-box;
+    overflow: hidden;
+}
+a:hover{
+    cursor:pointer;
+}
+.showBox{
+    margin: 5px 0 10px ;
+    width: 120px;
+    height: 50px;
+    background-color: #f5f5f5;
+    display: none;
+    padding: 8px 0;
+}
+.showBox .showBox-item:hover{
+    background-color: #fff;
+}
+
+.showBox .showBox-item:hover a{
+    color: #e47911;
+}
+.showBox .showBox-item a{
+    text-decoration: none;
+    padding: 20px;
+}
